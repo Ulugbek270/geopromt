@@ -5,86 +5,116 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Page 1</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-<style>
+    <style>
+        /* Reset some default styles */
+        body, h1, h2, p {
+            margin: 0;
+            padding: 0;
+        }
 
-/* Reset some default styles */
-body, h1, h2, p {
-    margin: 0;
-    padding: 0;
-}
+        /* Basic styling */
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f4f4f4;
+            padding: 0 20px;
+        }
 
-/* Basic styling */
-body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    color: #333;
-    background-color: #f4f4f4;
-    padding: 0 20px;
-}
+        header {
+            background: #007BFF;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+            border-bottom: 4px solid #0056b3;
+        }
 
-header {
-    background: #007BFF;
-    color: #fff;
-    padding: 20px 0;
-    text-align: center;
-    border-bottom: 4px solid #0056b3;
-}
+        header h1 {
+            margin: 0;
+            font-size: 2em;
+        }
 
-header h1 {
-    margin: 0;
-    font-size: 2em;
-}
+        main {
+            padding: 20px;
+            background: #fff;
+            max-width: 900px;
+            margin: 20px auto;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border: 1px solid #ddd;
+        }
 
-main {
-    padding: 20px;
-    background: #fff;
-    max-width: 900px;
-    margin: 20px auto;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    border: 1px solid #ddd;
-}
+        .content {
+            border-left: 4px solid #007BFF;
+            padding-left: 20px;
+        }
 
-.content {
-    border-left: 4px solid #007BFF;
-    padding-left: 20px;
-}
+        section h2 {
+            color: #007BFF;
+            border-bottom: 2px solid #007BFF;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
 
-section h2 {
-    color: #007BFF;
-    border-bottom: 2px solid #007BFF;
-    padding-bottom: 10px;
-    margin-bottom: 20px;
-}
+        section p {
+            margin-bottom: 20px;
+            line-height: 1.8;
+            padding: 10px;
+            border-bottom: 1px solid #ddd;
+            font-size: 20px;
+        }
 
-section p {
-    margin-bottom: 20px;
-    line-height: 1.8;
-    padding: 10px;
-    border-bottom: 1px solid #ddd;
-    font-size: 20px;
-}
 
-footer {
-    text-align: center;
-    padding: 10px 0;
-    background: #007BFF;
-    color: #fff;
-    position: fixed;
-    width: 100%;
-    bottom: 0;
-    border-top: 4px solid #0056b3;
-}
-ul{
-    font-size: 20px;
-}
 
-</style>
+        ul {
+            font-size: 20px;
+        }
+
+        /* Responsive design for smaller screens */
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 1.5em;
+            }
+
+            section p {
+                font-size: 16px;
+            }
+
+            ul {
+                font-size: 16px;
+            }
+
+            main {
+                padding: 10px;
+                margin: 10px auto;
+            }
+        }
+
+        @media (max-width: 576px) {
+            header h1 {
+                font-size: 1.2em;
+            }
+
+            section p {
+                font-size: 14px;
+            }
+
+            ul {
+                font-size: 14px;
+            }
+
+            main {
+                padding: 5px;
+                margin: 5px auto;
+            }
+        }
+
+    </style>
 </head>
 <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
-            <a class="navbar-brand text-danger" href="../index.html">Geo Prombez Ekspert</a>
+            <a class="navbar-brand text-danger"  href="../index.html">Geo Prombez Ekspert</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -107,147 +137,33 @@ ul{
         </div>
     </nav>
 
-
-
-<div class="content">
-
-
-
-
-    <main>
-        <section>
-            <h2>Qarorlar qabul qilish uchun ma'lumot</h2>
-            <p>
-
-
-                Sertifikatlashtirish toʻgʻrisidagi qarorni qabul qilish jarayoni, shu jumladan sertifikat berish, rad etish, tasdiqlash, yangilash, toʻxtatib turish yoki bekor qilish, shuningdek sertifikatlashtirish doirasini kengaytirish yoki toraytirish.
-                <br><br>
-
-                Sertifikatlashtirish organimiz sertifikat berish, rad etish, tasdiqlash, yangilash, amal qilish muddatini uzaytirish yoki toraytirish, sertifikatning amal qilishini to‘xtatib turish va tugatish kabilar sertifikatlashtirish bo‘yicha qarorlar qabul qilish mas’uliyati va vakolatiga ega.
-                <br><br>
-
-                Sertifikat berish, berishni rad etish, tasdiqlash, yangilash, toʻxtatib turish yoki bekor qilish, sertifikatlashtirish doirasini kengaytirish yoki toraytirish toʻgʻrisidagi qaror amaldagi standart qoidalari va sertifikatlashtirish talablarini bilgan va sertifikatlashtirishni baholashda oʻz vakolatlarini tasdiqlagan shaxslar tomonidan qabul qilinadi. audit jarayonlari natijalari, shu jumladan, tegishli tavsiyalar auditorlik guruhi o'zlarining bilimlari va ushbu sohadagi ko'p yillik tajribasi orqali.
-                <br><br>
-
-                Sertifikat berish, berishni rad etish, tasdiqlash, qayta rasmiylashtirish, toʻxtatib turish yoki bekor qilish, shuningdek sertifikatlashtirish doirasini kengaytirish yoki toraytirish toʻgʻrisida qaror qabul qilishda uchinchi shaxslar ishtirok etmaydi.
-                <br><br>
-
-                Sertifikatlashning uch yillik tsikli sertifikatlash to'g'risida qaror qabul qilish bilan boshlanadi.  Keyingi davrlar qayta sertifikatlash to'g'risida qaror qabul qilish bilan boshlanadi.
-                <br><br>
-
-                Sertifikatlash to'g'risidagi qaror:
-                <br><br>
-
-                Sertifikatlashtirish organimiz sertifikat berish yoki rad etish, sertifikatning amal qilish muddatini uzaytirish yoki toraytirish, sertifikatning amal qilishini toʻxtatib turish yoki bekor qilish yoki qayta sertifikatlash boʻyicha qarorlar qabul qilish toʻgʻrisida qaror qabul qilgan shaxslar yoki qoʻmita aʼzolarining auditlarda ishtirok etmasligini kafolatlaydi.  Sertifikatlash to'g'risida qaror qabul qiladigan shaxslar tegishli darajadagi vakolatlarga ega bo'lib, to'liq ish kunida ishlaydilar va qonuniy kuchga kirgan shartnomalar asosida ish bilan shug'ullanadilar.
-                <br><br>
-
-
-                Sertifikatlashtirish organi har bir sertifikatlashtirish qarorini, shu jumladan audit guruhi a'zolaridan yoki boshqa ma'lumot manbalaridan olingan qo'shimcha ma'lumot yoki tushuntirishlarni qayd etadi.
-         Qaror qabul qilinishidan oldin qilingan harakatlar
-         <br><br>
-         Sertifikatlashtirish organi sertifikat berish yoki rad etish, sertifikatning amal qilish doirasini kengaytirish yoki toraytirish, sertifikatni yangilash, to'xtatib turish yoki bekor qilish to'g'risida qaror qabul qilishdan oldin samarali tekshiruv o'tkazish jarayoniga ega.
-         <br><br>
-         Sertifikatlashtirish to'g'risida qaror qabul qilish uchun auditorlik guruhi tomonidan sertifikatlashtirish organiga taqdim etiladigan ma'lumotlar kamida quyidagilarni o'z ichiga oladi:
-        </p>
-
-        <ul>
-<li> a) auditorlik hisoboti;</li>
-<li> b) nomuvofiqliklar va agar kerak bo'lsa, mijoz tomonidan qilingan tuzatishlar va tuzatishlar bo'yicha sharhlar;</li>
-<li> v) sertifikatlashtirish organiga taqdim etilgan va arizani tahlil qilishda foydalanilgan ma'lumotlarni tasdiqlash;</li>
-<li> d) audit maqsadlariga erishilganligini tasdiqlash;</li>
-<li> e) sertifikatni berish yoki berishni rad etish bo'yicha tavsiyalar, uni amalga oshirish uchun har qanday shartlar yoki auditorning sharhlari.</li>
-
-        </ul>
-<p>
-        Agar sertifikatlashtirish organi ikkinchi bosqich tugaganidan keyin 6 oy ichida biron bir muhim nomuvofiqlik uchun tuzatishlar va tuzatishlar bajarilganligini tekshira olmasa, sertifikat berish to'g'risida qaror qabul qilishdan oldin u yana ikkinchi bosqich auditini o'tkazadi.
-Qayta sertifikatlashtirish natijalarini tasdiqlash uchun zarur bo'lgan ma'lumotlar
-<br><br>
-
-Sertifikatlashtirish organi qayta sertifikatlashtirish auditi natijalari, shuningdek sertifikatning amal qilish muddati davomida tizim faoliyatining tahlili va sertifikatlashtirish natijalaridan foydalanuvchilardan kelib tushgan shikoyatlar asosida sertifikatning amal qilishini yangilash to‘g‘risida qaror qabul qiladi.
-<br><br></p>
-
-<h2>Sertifikatlashtirishni tasdiqlash</h2>
-<p>
-          Sertifikatlashtirish organi mijozning boshqaruv tizimi standarti talablariga rioya qilishda davom etayotganligini namoyish qilish asosida sertifikatlashni tasdiqlaydi.  Sertifikatlashtirish organi mijozning sertifikatsiyasini auditorlik guruhi rahbarining ijobiy xulosasi asosida, keyinchalik mustaqil tahlil o‘tkazmasdan va tegishli qaror qabul qilmasdan tasdiqlashi mumkin.
-        </p>
-
-<ul><li>
-    sertifikatlashtirish organida sertifikatlashtirishni to'xtatib turish yoki bekor qilishga olib kelishi mumkin bo'lgan har qanday nomuvofiqlik yoki boshqa holat aniqlansa, audit guruhi rahbari sertifikatlashtirish organiga ushbu masalani kompaniya xodimlari tomonidan ko'rib chiqilishi kerakligi haqida xabar beradigan tizim mavjud. tegishli vakolat (7.2.8-bandga qarang) va sertifikatlashtirishni tasdiqlash imkoniyatini aniqlash uchun auditda qatnashmagan;
-
-</li>
-<li>sertifikatlashtirish organining vakolatli xodimlari sertifikatlashtirish faoliyati samarali amalga oshirilayotganligini tasdiqlash uchun inspeksiya nazorati faoliyatini, shu jumladan auditorlarning hisobotlarini monitoring qilishini nazorat qiladi.</li>
-</ul>
-
-
-<p>Sertifikatning amal qilishini toʻxtatib turish, bekor qilish yoki sertifikatlashtirish doirasini toraytirish.
-    Sertifikatlashtirish organi sertifikatning amal qilishini, masalan:
-    <ul>
-        <li>
-     mijozning sertifikatlangan boshqaruv tizimi doimiy yoki sezilarli darajada sertifikatlashtirish talablariga, shu jumladan boshqaruv tizimining samaradorligiga qo'yiladigan talablarga javob bera olmasa;
-</li><li>
-     sertifikatlangan buyurtmachi tekshirish yoki qayta sertifikatlash tekshiruvlarini zarur chastotada o'tkazishga ruxsat bermasa;
-</li>
-<li> sertifikatlangan mijoz ixtiyoriy ravishda sertifikatning amal qilishini to'xtatib turish to'g'risida so'rov yuboradi.
-</li>
-
-
-    </ul>
-
-</p>
-    <p>
-        To'xtatib qo'yilgandan so'ng, mijozning boshqaruv tizimi sertifikati vaqtincha o'z kuchini yo'qotadi.
-   Sertifikatning amal qilishini toʻxtatib turishga sabab boʻlgan muammo hal qilingan boʻlsa, toʻxtatib qoʻyilgan sertifikat yangilanadi.  Sertifikatning amal qilishini to‘xtatib turishga olib kelgan masalalarni sertifikatlashtirish organi tomonidan belgilangan muddatlarda hal qilmaslik sertifikatning bekor qilinishiga yoki sertifikatlashtirish doirasining torayishiga olib keladi.
-
-   </p>
-
-
-
-
-
-
-
-
-
-
-
+    <div class="content">
+        <main>
+            <section>
+                <h2>Qarorlar qabul qilish uchun ma'lumot</h2>
+                <p>
+                    Sertifikatlashtirish toʻgʻrisidagi qarorni qabul qilish jarayoni, shu jumladan sertifikat berish, rad etish, tasdiqlash, yangilash, toʻxtatib turish yoki bekor qilish, shuningdek sertifikatlashtirish doirasini kengaytirish yoki toraytirish.
+                    <br><br>
+                    Sertifikatlashtirish organimiz sertifikat berish, rad etish, tasdiqlash, yangilash, amal qilish muddatini uzaytirish yoki toraytirish, sertifikatning amal qilishini to‘xtatib turish va tugatish kabilar sertifikatlashtirish bo‘yicha qarorlar qabul qilish mas’uliyati va vakolatiga ega.
+                    <br><br>
+                    Sertifikat berish, berishni rad etish, tasdiqlash, yangilash, toʻxtatib turish yoki bekor qilish, shuningdek sertifikatlashtirish doirasini kengaytirish yoki toraytirish toʻgʻrisidagi qaror amaldagi standart qoidalari va sertifikatlashtirish talablarini bilgan va sertifikatlashtirishni baholashda oʻz vakolatlarini tasdiqlagan shaxslar tomonidan qabul qilinadi. audit jarayonlari natijalari, shu jumladan, tegishli tavsiyalar auditorlik guruhi o'zlarining bilimlari va ushbu sohadagi ko'p yillik tajribasi orqali.
+                    <br><br>
+                    Sertifikat berish, berishni rad etish, tasdiqlash, yangilash, toʻxtatib turish yoki bekor qilish, shuningdek sertifikatlashtirish doirasini kengaytirish yoki toraytirish toʻgʻrisida qaror qabul qilishda uchinchi shaxslar ishtirok etmaydi.
+                    <br><br>
+                    Sertifikatlashning uch yillik tsikli sertifikatlash to'g'risida qaror qabul qilish bilan boshlanadi.  Keyingi davrlar qayta sertifikatlash to'g'risida qaror qabul qilish bilan boshlanadi.
+                    <br><br>
+                    Sertifikatlash to'g'risidagi qaror:
+                    <br><br>
+                    Sertifikatlashtirish organimiz sertifikat berish yoki rad etish, sertifikatning amal qilish muddatini uzaytirish yoki toraytirish, sertifikatning amal qilishini toʻxtatib turish yoki bekor qilish yoki qayta sertifikatlash boʻyicha qarorlar qabul qilish toʻgʻrisida qaror qabul qilgan shaxslar yoki qoʻmita aʼzolarining auditlarda ishtirok etmasligini kafolatlaydi.  Sertifikatlash to'g'risida qaror qabul qiladigan shaxslar tegishli darajadagi vakolatlarga ega bo'lib, to'liq ish kunida ishlaydilar va qonuniy kuchga kirgan shartnomalar asosida ish bilan shug'ullanadilar.
+                    <br><br>
+                    Sertifikatlashtirish organi har bir sertifikatlashtirish qarorini, shu jumladan audit guruhi a'zolaridan yoki boshqa ma'lumot manbalaridan olingan qo'shimcha ma'lumot yoki tushuntirishlarni qayd etadi.
+                    Qaror qabul qilinishidan oldin sertifikatlashtirish organi, agar zarur bo'lsa, sertifikatlashtirish to'g'risidagi qarorni ta'sir qilishi mumkin bo'lgan qo'shimcha ma'lumotlarni to'plash, talablarga muvofiqlikni baholash yoki ta'sir ko'rsatishi mumkin bo'lgan holatlar mavjudligini baholash uchun qo'shimcha tadbirlar o'tkazishi mumkin.
+                </p>
             </section>
-    </main>
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-</div>
-
+        </main>
+    </div>
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-
 </body>
 </html>
